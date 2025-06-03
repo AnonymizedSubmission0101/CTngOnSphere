@@ -1,0 +1,20 @@
+---
+- name: Distribute Entire CTngexp Folder to All Relevant Hosts
+  hosts: Control
+  tasks:
+    - name: Remove existing CTngexp folder (if it exists)
+      ansible.builtin.file:
+        path: /tmp/CTngexp
+        state: absent
+
+    - name: Create CTngexp folder in /tmp
+      ansible.builtin.file:
+        path: /tmp/CTngexp
+        state: directory
+
+    - name: Copy CTngexp files to /tmp/CTngexp
+      ansible.builtin.copy:
+        src: "CTngexp"
+        dest: "/tmp/CTngexp/"
+        remote_src: no
+        force: yes
