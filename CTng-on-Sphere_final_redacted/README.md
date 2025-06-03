@@ -1,7 +1,7 @@
 # Model 
 The model file creates a star topology as shown in the figure below: 
 
-![image](https://github.com/user-attachments/assets/ebc51907-91f9-44cf-89da-249f72210f03)
+![image](https://github.com/user-attachments/assets/7f9ac1b2-229c-4cdc-821a-02ef8e0aa198)
 
 Every entity (including a control node) is connected to the backbone router via a 100Mbps access link. 
 
@@ -15,7 +15,8 @@ Link:
 https://github.com/<USERNAME_REDACTED>/CTngV3/commit/fe0941cc115a9085c43b0c48cf64c95086f338dd
 ```
 
-![image](https://github.com/user-attachments/assets/79f05636-7404-4c56-97e3-672516a68a67)
+![image](https://github.com/user-attachments/assets/edbc43b5-e579-4985-9beb-559e3ba0e6ef)
+
 
 # Operations from the XDC
 ## 1. Generate Inventory
