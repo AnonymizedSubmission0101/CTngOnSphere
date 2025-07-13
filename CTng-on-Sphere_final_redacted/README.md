@@ -5,7 +5,7 @@ In this file, you will find
 2.  Operations from the XDC (short cut for Experiment Development Container)
 3. Operations from the Control Node (created to run automation scripts on other VMs, VM targets are specified by the CTngexp/inv.ini file)
    
-More instructions can be found at https://launch.sphere-testbed.net/tutorials
+Instructions about Sphere can be found at https://launch.sphere-testbed.net/tutorials
 
 # Model 
 The model file creates a star topology as shown in the figure below: 
