@@ -1,21 +1,18 @@
+# Introduction
+Welcome to CTng On Sphere!
+In this file, you will find 
+1. Model: used to create the experiment on Sphere, file can be found in the current directory
+2.  Operations from the XDC (short cut for Experiment Development Container)
+3. Operations from the Control Node (created to run automation scripts other VMs, VM targets are specified by the CTngexp/inv.ini file)
+   
+More instructions can be found at https://launch.sphere-testbed.net/tutorials
+
 # Model 
 The model file creates a star topology as shown in the figure below: 
 
 ![image](https://github.com/user-attachments/assets/7f9ac1b2-229c-4cdc-821a-02ef8e0aa198)
 
 Every entity (including a control node) is connected to the backbone router via a 100Mbps access link. 
-
-# Results
-Results were obtained by <reducted> using CTngV3 repository with Commit ID:
-```
-fe0941c
-```
-Link:
-```
-https://github.com/<USERNAME_REDACTED>/CTngV3/commit/fe0941cc115a9085c43b0c48cf64c95086f338dd
-```
-
-![image](https://github.com/user-attachments/assets/edbc43b5-e579-4985-9beb-559e3ba0e6ef)
 
 
 # Operations from the XDC
@@ -169,3 +166,15 @@ ansible-playbook -i inv.ini ctngv3.yml
    ```bash
    mrg xdc scp download  <path_to_file_on_XDC> <path_local_destination_folder>
    ```
+
+# Results
+Results were obtained by <reducted> using CTngV3 repository with Commit ID:
+```
+fe0941c
+```
+Link:
+```
+https://github.com/<USERNAME_REDACTED>/CTngV3/commit/fe0941cc115a9085c43b0c48cf64c95086f338dd
+```
+
+![image](https://github.com/user-attachments/assets/edbc43b5-e579-4985-9beb-559e3ba0e6ef)
