@@ -3,7 +3,7 @@ Welcome to CTng On Sphere!
 In this file, you will find 
 1. Model: used to create the experiment on Sphere, file can be found in the current directory
 2.  Operations from the XDC (short cut for Experiment Development Container)
-3. Operations from the Control Node (created to run automation scripts other VMs, VM targets are specified by the CTngexp/inv.ini file)
+3. Operations from the Control Node (created to run automation scripts on other VMs, VM targets are specified by the CTngexp/inv.ini file)
    
 More instructions can be found at https://launch.sphere-testbed.net/tutorials
 
